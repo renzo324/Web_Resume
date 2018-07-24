@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 html body{
 	height: 100%;
+	font-family: 'Ubuntu' , serif;
+}
+.clear{
+	clear: both;
+}
+.topbar{
+	border-top: 4px solid #a6a6a6;
+}
+.header{
+	
+	margin: 50px auto 10px;
+}
+#heading{
+	border: 3px solid #757575;
+	border-radius: 10px;
+	margin: 30px;
+	text-align: center;
+	
+}
+#heading h1 {
+	font-size: 70px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #696969;
+}
+#heading h3{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #a9a9a9;
+}
+#heading p{
+	color: #c0c0c0;
+}
+.Socials a:hover{
+	text-decoration: none;
+
+}
+.fab{
+	font-size: 20px;
+	margin: 0 10px;
+	color: #a8a8a8;
+}
+.divider{
+	font-size: 25px;
+	font-weight: 100;
+}
+#aboutMe{
+	color: #d9dbdd;
+	margin: 50px;
+}
+#aboutMe img{
+	width: 200px;
+	height: auto;
+	border-radius: 100%;
+	border: 2px solid #000;
+}
+#elevatorPitch h2{
+	font-size: 1.5rem;
+	color: #000;
+}
+#elevatorPitch p{
+	color: #000;
+	font-size: 0.9rem;
+}
+#imgCol{
+	border-right: 2px solid #a6a6a6;
+}
+#skills{
+	float: right;
+	display: inline;
+	border-top: 4px solid #a6a6a6;
+}
+#skills h1{
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	margin-top: 20px;
+}
+#skills ul{
+	float: left;
+	margin: 20px;
+}
+#skills ul li{
+	float: left;
+	display: inline;
+	margin: 0 3%;
+}
+#skills ul li img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #000;
+	border-radius: 100%;
+	margin: 1px;
+}
+#skills ul li p{
+	margin-top: 1%;
+	text-align: center;
+	font-weight: 600;
 }
