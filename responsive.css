@@ -1,0 +1,17 @@
+@media (max-width: 767px){
+	#heading h1{
+		font-size: 3rem;
+	}
+	#heading h3{
+		font-size: 37px;
+	}
+	#imgCol{
+		display: none;
+	}
+	#aboutMe img{
+		margin-bottom: 10px;
+	}
+	.floatRight{
+		float: left;
+	}
+}
