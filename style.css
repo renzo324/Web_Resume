@@ -36,6 +36,7 @@ html body{
 	
 }
 #heading h1 {
+	margin-top: 15px;
 	font-size: 4.375rem;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -70,11 +71,14 @@ html body{
 }
 #aboutMe img{
 	width: 200px;
+	margin: 0 -20px;
 	height: auto;
 	border-radius: 100%;
-	border: 2px solid #000;
+	border: 2px solid #a8a8a8;
 }
-
+#elevatorPitch{
+	margin: 0 20px;
+}
 #elevatorPitch h2{
 	font-size: 1.5rem;
 	color: #fff;
@@ -84,8 +88,10 @@ html body{
 	font-size: 0.9rem;
 }
 #imgCol{
+	padding: 0 10px;
 	border-left:2px solid #a6a6a6;
 }
+.logos
 #skills{
 	float: right;
 	display: inline;
@@ -97,12 +103,14 @@ html body{
 }
 #skills ul{
 	float: left;
-	margin: 2% 5%;
+	width: 100%;
+    margin: 0 3%;
+    text-align: center;
 }
 #skills ul li{
 	float: left;
 	display: inline;
-	margin: 0 3%;
+	margin: 0 4%;
 }
 #skills ul li img{
 	width: 80px;
@@ -136,6 +144,9 @@ html body{
 	color: #dfdfdf;
 	margin: 0 auto;
 	width: 80%;
+}
+.white li{
+	list-style: disc;
 }
 .address{
 	font-size: 1rem;
