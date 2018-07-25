@@ -3,11 +3,22 @@ html body{
 	height: 100%;
 	font-family: 'Ubuntu' , serif;
 }
+.inline{
+	display: inline-block;
+
+}
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
 .clear{
 	clear: both;
 }
 .topbar{
-	border-top: 4px solid #a6a6a6;
+	border: 4px solid #a6a6a6;
+	width: 100%;
 }
 .header{
 	
@@ -48,8 +59,10 @@ html body{
 	font-weight: 100;
 }
 #aboutMe{
-	color: #d9dbdd;
-	margin: 50px;
+	background: #696B6F;
+	border-radius: 15px;
+    padding: 50px;
+    margin: 30px;
 }
 #aboutMe img{
 	width: 200px;
@@ -57,30 +70,30 @@ html body{
 	border-radius: 100%;
 	border: 2px solid #000;
 }
+
 #elevatorPitch h2{
 	font-size: 1.5rem;
-	color: #000;
+	color: #fff;
 }
 #elevatorPitch p{
-	color: #000;
+	color: #fff;
 	font-size: 0.9rem;
 }
 #imgCol{
-	border-right: 2px solid #a6a6a6;
+	border-left:2px solid #a6a6a6;
 }
 #skills{
 	float: right;
 	display: inline;
-	border-top: 4px solid #a6a6a6;
 }
 #skills h1{
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-top: 20px;
 }
 #skills ul{
 	float: left;
-	margin: 20px;
+	margin: 2% 5%;
 }
 #skills ul li{
 	float: left;
@@ -98,4 +111,28 @@ html body{
 	margin-top: 1%;
 	text-align: center;
 	font-weight: 600;
+}
+.footer{
+	background: #696B6F;
+}
+.footer h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 2rem;
+}
+.footer h3{
+	color: #fff;
+	font-size: 1.5rem;
+}
+.footerList li{
+	margin: 2% 0;
+}
+.white{
+	color: #dfdfdf;
+	margin: 0 auto;
+	width: 80%;
+}
+.address{
+	font-size: 1rem;
+	color: #efefef;
 }

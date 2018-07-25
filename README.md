@@ -1,2 +1,2 @@
 # Web_Resume
-My website resume and portfolio compilation
+My resume built in HTML5, CSS3, and JavaScript(coming soon)
