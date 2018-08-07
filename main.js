@@ -1,4 +1,9 @@
 window.document.onload = landingSection();
+document.getElementById("home").addEventListener("click", landingSection);
+document.getElementById("about").addEventListener("click", aboutMe);
+document.getElementById("skills").addEventListener("click", skills);
+document.getElementById("exp").addEventListener("click", experience);
+document.getElementById("educ").addEventListener("click", education);
 function landingSection(){
 	var x = 
 	`
@@ -11,6 +16,8 @@ function landingSection(){
 	`;
 
 	document.getElementById('app').innerHTML = x;
+    document.getElementById('app').style.margin = '20% 0';
+	document.getElementById('main').style.backgroundColor = '#fff';
 }
 function aboutMe(){
 	var x = ` 
@@ -26,10 +33,12 @@ function aboutMe(){
     </div>
 	`;
 	document.getElementById('app').innerHTML = x;
+    document.getElementById('app').style.margin = '20% 0';
+	document.getElementById('main').style.backgroundColor = '#fff';
 }
 function skills(){
 	var x = `
-	<div id="skills" class="w-100">
+	<div id="skills" class="w-100" style="margin:25% 0;">
 	    <h1>Proficiencies</h1>
 	    <ul class="logos">
 	        <li><img src="http://lorenzoibay.com/wp-content/uploads/2018/07/Javascript.png">
@@ -55,7 +64,8 @@ function skills(){
 	<div class="clear"></div>
 	`;
 	document.getElementById('app').innerHTML = x;
-
+    document.getElementById('app').style.margin = '20% 0';
+	document.getElementById('main').style.backgroundColor = '#fff';
 }
 function experience(){
 	var x = `
@@ -113,8 +123,10 @@ function experience(){
     </li>
 </ul>
 	`;
-	document.getElementById('app').innerHTML = x;
+    document.getElementById('app').innerHTML = x;
+	document.getElementById('app').style.margin = '0';
 	document.getElementById('main').style.backgroundColor = '#696B6F';
+
 }
 function education(){
 	var x = `
@@ -136,5 +148,6 @@ function education(){
 </ul>
 	`;
 	document.getElementById('app').innerHTML = x;
+    document.getElementById('app').style.margin = '22% 0';
 	document.getElementById('main').style.backgroundColor = '#696B6F';
 }

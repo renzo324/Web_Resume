@@ -24,8 +24,17 @@ html body{
 .btn{
 	margin:0 auto;
 }
+#navigation{
+	font-size: 25px;
+	margin: 16% 0;
+}
+#navigation ul li{
+	margin: 15px 0;
+}
+#navigation ul li a{
+	color: #262728;
+}
 .header{
-	
 	margin: 50px auto 10px;
 }
 #heading{

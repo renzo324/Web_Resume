@@ -12,16 +12,18 @@
 <body>
 	<div class="container-fluid w-100 h-100" id="main" style="background-color: #fff;">
 		<div class="row">
-			<div class="col-1">
-				<button onclick="aboutMe()"> X </button><br>
-				<button onclick="skills()"> X </button><br>
-				<button onclick="experience()"> X </button><br>
-				<button onclick="education()"> X </button><br>
+			<div class="col-2" id="navigation">
+				<ul>
+					<li><a href="#" id="home"><i class="fas fa-home"></i>&nbsp;Home</a></li>
+					<li><a href="#" id="about" "><i class="fas fa-user-circle"></i>&nbsp;About Me</a></li>
+					<li><a href="#" id="skills"><i class="fas fa-toolbox"></i>&nbsp;Skills</a></li>
+					<li><a href="#" id="exp" "><i class="fas fa-briefcase"></i>&nbsp;Experience</a></li>
+					<li><a href="#" id="educ" "><i class="fas fa-graduation-cap"></i>&nbsp;Education</a></li>
+				</ul>				
 			</div>
 			<div class="col-10">
 				<div id="app" style="margin: 20% 0; "></div>
 			</div>
-			<div class="col-1"></div>
 		</div>
 	</div>
 
